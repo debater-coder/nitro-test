@@ -1,1 +1,1 @@
-export default defineEventHandler(() => "nitro is amazing!");
+export default defineEventHandler(() => `Hello from ${Date.now()}`);
